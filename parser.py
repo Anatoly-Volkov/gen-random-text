@@ -62,6 +62,7 @@ with open('model_small.pickle', 'rb') as f:
 # A.fit("SW_EpisodeIV.txt")
 # A.fit("HP1.txt")
 # A.fit("wiki_small.txt")
+A.gen(100)
 
 with open('model_small.pickle', 'wb') as f:
     pickle.dump(A, f)
